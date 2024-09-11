@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    font-weight: 40px;
+    font-style: normal;
+    color: white;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+html{
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 100%;
+}
+
+body{
+    background: -webkit-linear-gradient(top, #B5C2A8, #A0C28D, #809964);
+    background: -o-linear-gradient(top, #B5C2A8, #A0C28D, #809964);
+    background:  -moz-linear-gradient(top, #B5C2A8,#A0C28D, #809964);
+    background: linear-gradient(top, #B5C2A8, #A0C28D, #809964);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} 
+.container{
+    padding: 0 10px;
+    margin: 0;
+    background-color: #809964;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    width: 400px;
+    height: 750px;
+    min-height: 480px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.35);
+}
+
+h1{
+    margin-bottom: 2px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.multi-table{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+label{
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+input{
+    color: black;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 0 0px;
+    margin-bottom: 12px;
+    outline: none;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.35);
+    text-align: center;
+    position: relative;
+}
+
+table{
+    border: 1px solid black;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    border-width: 2px;
+    background: #A0C28D;
+    height: 621px;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+    border-radius: 6px;
+}
+
+tr, td{
+    border: 1px solid black;
+    background-color: #809964;
+    font-size: 20px;
+    border-radius: 5px;
+    height: 6vh;
+    width: 20vh;
+    font-size: 22px;
+    text-align: center;
+    max-width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flexbox;
+}
+
+button{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    background-color: white;
+    color: black;
+    width: 15vh;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.45);
+}
+
+button:active{
+    background-color: #809964;
+}
